@@ -1,0 +1,17 @@
+/* This makes the background of the body not the gallery look a certain color */
+body{
+    background-color: black;
+    text-align: center;
+}
+/* This changes the color of the gallery without changing the color of the body, and also creates the grid for the image formation */
+#gallery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: darkgray;
+}
+/* This sets the size of the original images, and also changes their position to relative so that the resized image can be on top of them */
+img{
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
